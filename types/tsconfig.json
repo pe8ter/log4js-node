@@ -1,9 +1,18 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "strict": true,
+    "module": "commonjs",
+    "lib": ["es6"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "log4js": ["."]
+    }
   }
 }

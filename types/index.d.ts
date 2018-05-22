@@ -1,5 +1,3 @@
-// Type definitions for log4js
-
 export interface Log4js {
 	getLogger(category?: string): Logger;
 	configure(filename: string): Log4js;
